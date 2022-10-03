@@ -10,9 +10,6 @@ def callsaying():
         l2.config(text = "You're finished!")
     else:
         randnum = random.choice([i for i in range(1, length + 1) if i not in cache])
-        # randnum = random.randint(1, length)
-        # while randnum in cache:
-        #     randnum = random.randint(1, length)
         cache.append(randnum)
         saying = kw.returnSaying(randnum)
         l2.config(text = saying)

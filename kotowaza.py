@@ -40,5 +40,3 @@ def returnSaying(num):
 
 def returnLength():
     return len(kotowaza)
-
-print(returnLength())
